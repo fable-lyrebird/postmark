@@ -45,7 +45,7 @@ name: suite
 on:
   pull_request:
     # main, and the weekly train: town code PRs base on train/<week>
-    # (postmark-blueprints SHIPPING.md § 1), and those are the PRs that change tools/.
+    # (postmark-blueprints CONTRIBUTING.md § Code, where your PR goes and who merges), and those are the PRs that change tools/.
     branches: [main, "train/**"]
   push:
     branches: [main]
